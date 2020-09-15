@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    font-family: Poppins;
+}
+
+h1 {
+    padding-top: 40px;
+    font-size: 200%;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    padding: 15px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#form-section {
+    width: 60%;
+    margin: 20px auto;
+    background-color: rgba(87, 86, 86, 0.363);
+}
+
+
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    width: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 0 75px 15px;
+    height: 25px;
+}
+
+textarea {
+    height: 50px;
+}
+
+select {
+    height: 37px;
+    width: 81.5%;
+}
+
+#submit {
+    width: 40%;
+    height: 37px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 30px 230px;
+}
+
+.form-label {
+    padding: 10px 0;
+    margin: 0 75px;
+}
+
+.form-label:first-of-type {
+    padding-top: 30px;
+}
+
+#input-c {
+    margin-left: 75px;
+}

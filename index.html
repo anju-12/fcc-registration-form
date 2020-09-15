@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,200&display=swap" rel="stylesheet"> 
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="form">
+        <header>
+            <h1 id= "title">Registration Form</h1>
+            <p id="description">
+                This is a dummy Registration Form of any Entrance Exam. Build for the Free Code Camp - Responsive web design project.
+            </p>
+        </header>
+        <div id="form-section">
+            <form id="survey-form">
+                <div class="form-label">
+                    <label id="name-label" for="name">Name:</label>
+                </div>
+
+                <div id="input">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                </div>
+                
+                <div class="form-label">
+                    <label id="email-label" for="email">Email:</label>
+                </div>
+                <div id="input">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+
+                <div class="form-label">    
+                    <label id="number-label" for="age">Age:</label>
+                </div>            
+                <div id="input">
+                    <input type="number" name="age" id="number" min="18" max="30" placeholder="Enter Your Age (18-30 yrs)" required>
+                </div>
+
+                <div class="form-label">
+                    <p>Gender:</p>
+                </div>
+                <div id="input-c">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label><br>
+                </div>
+                
+                <div id="input-c">
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="form-label">
+                    <label id="stream-label" for="stream">Stream:</label>
+                </div>
+                <div id="input">
+                    <select name="stream" id="dropdown">
+                        <option value="science">Science</option>
+                        <option value="Commerce">Commerce</option>
+                        <option value="arts">Arts</option>
+                    </select>
+                </div>
+                
+                <div class="form-label">
+                    <label id="qf-label" for="qualification">Qualification:</label>                    
+                </div>
+                <div id="input">
+                    <select name="qualification" id="qualification">
+                        <option value="10th board">Matriculation</option>
+                        <option value="12th board">Intermediate</option>
+                        <option value="graduation">Graduation</option>
+                    </select>
+                </div>
+
+                <div class="form-label">
+                    <p>Choose Your Subject:</p>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="chemistry" id="chemistry" value="news">
+                    <label>Chemistry</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="physics" id="physics" value="news">
+                    <label>Physics</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="maths" id="maths" value="news">
+                    <label>Mathematics</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="accounts" id="accounts" value="news">
+                    <label>Accounts</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="bst" id="bst" value="news" >
+                    <label>Business Studies</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="history" id="history" value="news">
+                    <label>History</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="polsc" id="polsc" value="news">
+                    <label>Political Science</label>
+                </div>
+                <div id="input-c">
+                    <input type="checkbox" name="eco" id="eco" value="news">
+                    <label>Economics</label>
+                </div>
+
+
+                <div class="form-label">
+                    <label id="m-label" for="mobile-no">Mobile No:</label>
+                </div>
+                <div id="input">
+                    <input type="number" name="mobile-no" id="mobile-no" placeholder="Enter your Mobile No." required>
+                </div>
+
+                <div class="form-label">
+                    <label id="add-label">Address:</label>
+                </div>
+                <div id="input">
+                    <textarea name="message" id="address" placeholder="Enter Your Address"></textarea>
+                </div>
+
+                <div id="sub-btn">
+                    <input type="submit" id="submit" value="Submit It!" >
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
